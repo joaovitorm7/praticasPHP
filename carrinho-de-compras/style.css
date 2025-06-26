@@ -101,3 +101,13 @@ a {
 .esvaziar:hover {
     background-color: #757575;
 }
+
+
+.voltar {
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 20px;
+    color: #4CAF50;
+    font-weight: bold;
+    text-align: center;
+}

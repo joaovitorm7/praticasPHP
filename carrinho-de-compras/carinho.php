@@ -61,6 +61,7 @@ $conn->close();
 
         <form action="limpar.php" method="post" style="text-align: right; margin-top: 20px;">
             <button type="submit" class="esvaziar">Esvaziar Carrinho</button>
+            <a href="formulario.html" class="voltar">Voltar</a>
         </form>
     </div>
 </body>
