@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Escolher Produtos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Escolha os Produtos</h1>
+        <form action="processa.php" method="post">
+            <label>Produto:
+                <select name="item" required>
+                    <option value="">Selecione</option>
+                    <option value="Camiseta">Camiseta</option>
+                    <option value="Calça Jeans">Calça Jeans</option>
+                    <option value="Meia">Meia</option>
+                    <option value="Tênis">Tênis</option>
+                    <option value="Boné">Boné</option>
+                    <option value="Jaqueta">Jaqueta</option>
+                </select>
+            </label><br><br>
+
+            <label>Quantidade:
+                <input type="number" name="quantidade" min="1" required>
+            </label><br><br>
+
+            <label>Preço Unitário:
+                <input type="number" name="preco_unitario" step="0.01" min="0.01" required>
+            </label><br><br>
+
+            <button type="submit">Adicionar ao Carrinho</button>
+        </form>
+
+        <br>
+        <a href="carinho.php">Ver Carrinho</a>
+    </div>
+</body>
+</html>
