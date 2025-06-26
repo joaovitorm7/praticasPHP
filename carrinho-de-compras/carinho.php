@@ -49,7 +49,7 @@ $conn->close();
 <head>
     <meta charset="UTF-8">
     <title>Carrinho de Compras</title>
-    <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="container">
